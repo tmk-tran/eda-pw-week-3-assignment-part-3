@@ -1,13 +1,26 @@
 /* give your assignment a fun background color */
 body {
-    background-color: chartreuse;
+    background-color:violet;
 }
 
 h1 {
-    color:dodgerblue;
+    color:beige;
 }
 
 h2 {
     color:indigo;
     font-size: 40px;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    border-radius: 40px;
+}
+
+.polaroid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
