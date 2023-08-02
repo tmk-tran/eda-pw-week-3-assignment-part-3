@@ -44,6 +44,19 @@ console.log( 'The new array is now: ', supplyChanges );
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
 
+for ( let i = 0; i < supplyChanges.length; i++ ) {
+    console.log( supplyChanges[i] );
+    let value = supplyChanges[i];
+    
+    if ( value > 0 ) {
+        console.log( 'added x parts' );
+    } else if ( value === 0 ) {
+        console.log( 'No Change' );
+    } else {
+        console.log( 'Removed x parts' );
+    }
+}
+
 
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
