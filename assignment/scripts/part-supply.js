@@ -47,7 +47,7 @@ console.log('6. Showing supplyChanges...');
 for ( let i = 0; i < supplyChanges.length; i++ ) {
     console.log( supplyChanges[i] );
     let value = supplyChanges[i];
-    
+
     if ( value > 0 ) {
         console.log( 'added x parts' );
     } else if ( value === 0 ) {
@@ -62,6 +62,11 @@ for ( let i = 0; i < supplyChanges.length; i++ ) {
 console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
 console.log('7. Showing supplyChanges with "for of" loop');
+
+for( loop of supplyChanges ) {
+    console.log( loop );
+}
+
 
 // 8. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
