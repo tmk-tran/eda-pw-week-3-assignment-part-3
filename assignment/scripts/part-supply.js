@@ -92,13 +92,13 @@ console.log('9. Filling boxes with a "while" loop');
 const totalParts = 572;
 const partsInBox = 7;
 
-let boxesFilled = 0;
+let boxes = 0;
 let partsLeft = totalParts;
 
 while( partsLeft >= partsInBox ) {
-    boxesFilled++;
+    boxes++;
     partsLeft -= partsInBox;
 }
 
-console.log( 'The number of boxes filled: ', boxesFilled );
+console.log( 'The number of boxes filled: ', boxes );
 console.log( 'The number of parts left: ', partsLeft );
