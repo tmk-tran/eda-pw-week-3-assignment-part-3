@@ -49,11 +49,11 @@ for ( let i = 0; i < supplyChanges.length; i++ ) {
     let value = supplyChanges[i];
 
     if ( value > 0 ) {
-        console.log( 'added 25 parts' );
+        console.log( 'Added ' + value + ' parts.' );
     } else if ( value === 0 ) {
         console.log( 'No Change' );
     } else {
-        console.log( 'Removed 6 parts' );
+        console.log( 'Removed ' + value + ' parts.' );
     }
 }
 
@@ -70,11 +70,11 @@ for( let value of supplyChanges ) {
     console.log( value );
 
     if ( value > 0 ) {
-        console.log( 'added 25 parts' );
+        console.log( 'Added ' + value + ' parts.' );
     } else if ( value === 0 ) {
         console.log( 'No Change' );
     } else {
-        console.log( 'Removed 6 parts' );
+        console.log( 'Removed ' + value + ' parts.' );
     }
 }
 
